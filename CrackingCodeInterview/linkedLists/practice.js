@@ -6,7 +6,6 @@ class Node {
     }
 }
 
-// gonna be making a CREATE / GET / REMOVE
 class LinkedList {
     constructor() {
         // list is empty if head is null
