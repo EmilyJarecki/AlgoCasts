@@ -17,6 +17,24 @@
 //       '### '
 //       '####'
 
-function steps(n) {}
+// TODO i don't understand this at all
+function steps(n) {
+  for (let step = 0; step < n; step++) {
+    // console.log("#");
+    let stair = "";
+
+    for (let level = 0; level < n; level++) {
+      if (level <= step) {
+        stair += "#";
+      } else {
+        stair += " ";    
+        
+
+      }
+    }console.log(stair);
+
+  }
+}
+steps(4);
 
 module.exports = steps;
