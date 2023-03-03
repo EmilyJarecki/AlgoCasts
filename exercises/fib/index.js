@@ -8,6 +8,15 @@
 // Example:
 //   fib(4) === 3
 
-function fib(n) {}
+function fib(n) {
+    const seq = [0, 1]
+    for(let i=0; i<n-1; i++){
+        let nextNum = seq[i] + seq[i+1]
+        seq.push(nextNum)
+    }
+    console.log(seq[n])
+}
+
+fib(4)
 
 module.exports = fib;
