@@ -22,3 +22,4 @@
    list.insertLast('c');
    list.insertLast('d');
    console.log(fromLast(list, 2))
+   

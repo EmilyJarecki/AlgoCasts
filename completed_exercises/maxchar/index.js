@@ -27,5 +27,6 @@ function maxChar(str) {
 
   return maxChar;
 }
+console.log(maxChar("abcccccccddd"))
 
 module.exports = maxChar;

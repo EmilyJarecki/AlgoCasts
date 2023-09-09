@@ -5,11 +5,15 @@
 
 class Events {
   // Register an event handler
-  on(eventName, callback) {}
+  on(eventName, callback) {
+    const btn = document.getElementById("button")
+  }
 
   // Trigger all callbacks associated
   // with a given eventName
-  trigger(eventName) {}
+  trigger(eventName) {
+    btn.addEventListener("click")
+  }
 
   // Remove all event handlers associated
   // with the given eventName

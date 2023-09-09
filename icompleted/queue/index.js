@@ -8,6 +8,17 @@
 //     q.add(1);
 //     q.remove(); // returns 1;
 
-class Queue {}
+// TODO goes in, comes back out
+class Queue {
+    constructor() {
+        this.data = [];
+      }
+    add(num){
+        this.data.unshift(num)
+    }
+    remove(num){
+        this.data.pop(num)
+    }
+}
 
 module.exports = Queue;
